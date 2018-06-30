@@ -12,6 +12,7 @@ public class CommonToolClass {
         if(cfg==null){
         Configuration cfg=new Configuration();
             session = cfg.configure().buildSessionFactory().openSession();
+            System.out.println("dlfkjld");
      
         }
         return session;
